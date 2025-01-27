@@ -115,7 +115,7 @@
     fi
 
     sudo apt -y install nginx
-    sudo rm /etc/nginx/sites-enabled/default
+    #sudo rm /etc/nginx/sites-enabled/default
     sudo systemctl start nginx.service
     sudo systemctl enable nginx.service
     sudo systemctl start cron.service
